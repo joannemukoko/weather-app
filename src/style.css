@@ -1,0 +1,64 @@
+body {
+  border: 20px solid #e4f1fe;
+  border-radius: 50px;
+  padding: 4% 1%;
+  margin: 100px 300px 100px 300px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #8ea0b1;
+  position: relative;
+  top: 130px;
+}
+.degree {
+  font-size: 20px;
+}
+h2 {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #295aad;
+  text-align: left;
+  position: relative;
+  bottom: 100px;
+}
+.wind {
+  font-family: "Barlow Condensed", sans-serif;
+  color: #295aad;
+  text-align: right;
+  position: relative;
+  bottom: 210px;
+  font-size: 30px;
+}
+.forecast {
+  position: relative;
+  left: 20px;
+  bottom: 60px;
+}
+.row {
+  font-size: 30px;
+  color: #8ea0b1;
+  position: relative;
+  bottom: 30px;
+}
+form {
+  position: relative;
+  bottom: 40px;
+  top: 40px;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  border-radius: 50px;
+}
+.city {
+  background: #e4f1fe;
+  width: 210px;
+}
+button {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  bottom: -10px;
+  left: 175px;
+  font-family: "Barlow Condensed", sans-serif;
+  border-radius: 50px;
+}
