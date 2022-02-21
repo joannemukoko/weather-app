@@ -62,3 +62,7 @@ button {
   font-family: "Barlow Condensed", sans-serif;
   border-radius: 50px;
 }
+p {
+  position: relative;
+  bottom: -110px;
+}
