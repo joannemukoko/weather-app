@@ -45,6 +45,7 @@ form {
   position: relative;
   bottom: 40px;
   top: 40px;
+  right: 30px;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   border-radius: 50px;
@@ -53,12 +54,16 @@ form {
   background: #e4f1fe;
   width: 210px;
 }
-button {
+.search {
+  width: 60px;
+}
+.btn-primary {
   position: relative;
   display: block;
   margin: 0 auto;
-  bottom: -10px;
-  left: 175px;
+  bottom: -5px;
+  left: 165px;
+
   font-family: "Barlow Condensed", sans-serif;
   border-radius: 50px;
 }
