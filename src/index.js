@@ -40,6 +40,7 @@ let currentDate = document.querySelector("#day-month");
 currentDate.innerHTML = `${day} ${date} ${month}`;
 let currentTime = document.querySelector("#time");
 currentTime.innerHTML = `${hour}:${minutes}`;
+let iconElement = document.querySelector("#icon");
 
 function showWeather(response) {
   document.querySelector("#location").innerHTML = response.data.name;
@@ -52,6 +53,10 @@ function showWeather(response) {
   );
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function searchCity(city) {
