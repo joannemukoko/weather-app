@@ -72,3 +72,12 @@ p {
   position: relative;
   bottom: -115px;
 }
+.active {
+  color: #8ea0b1;
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: none;
+  color: #8ea0b1;
+}
