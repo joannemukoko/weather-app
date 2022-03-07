@@ -54,6 +54,7 @@ form {
 .city {
   background: #e4f1fe;
   width: 210px;
+  border: 1px solid;
 }
 .search {
   width: 60px;

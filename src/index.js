@@ -42,6 +42,27 @@ let currentTime = document.querySelector("#time");
 currentTime.innerHTML = `${hour}:${minutes}`;
 let iconElement = document.querySelector("#icon");
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Thu", "Fri", "Sat", "Sun", "Mon"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+  <div class="col">
+          ${day} <br />
+          <img src="http://openweathermap.org/img/wn/04d@2x.png"/> <br />
+          11°
+        </div>
+        `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function showWeather(response) {
   let locationElement = document.querySelector("#location");
   let temperatureElement = document.querySelector("#temperature");
@@ -116,3 +137,5 @@ farenheitLink.addEventListener("click", showFarenheitTemperature);
 
 let celcuisLink = document.querySelector("#ceclius-link");
 celcuisLink.addEventListener("click", showCelciusTemperature);
+
+displayForecast();
