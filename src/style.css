@@ -42,6 +42,9 @@ h2 {
   position: relative;
   bottom: 50px;
 }
+.min-temp {
+  opacity: 0.5;
+}
 form {
   position: relative;
   bottom: 40px;
