@@ -57,7 +57,6 @@ form {
   right: 30px;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
-  border-radius: 50px;
 }
 .city {
   width: 210px;
@@ -65,10 +64,15 @@ form {
   padding: 10px 25px;
   border-radius: 5px;
   border-style: none;
-  border: 2px solid rgb(205, 214, 223);
+  border: 2px solid #b8dcff;
+  background-color: transparent;
 }
 .search {
   width: 60px;
+  background-color: transparent;
+  border: 2px solid #b8dcff;
+  padding: 10px 25px;
+  border-radius: 5px;
 }
 .btn-primary {
   position: relative;
