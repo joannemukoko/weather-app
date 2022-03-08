@@ -53,17 +53,19 @@ h2 {
 }
 form {
   position: relative;
-  bottom: 40px;
-  top: 40px;
+  bottom: 60px;
   right: 30px;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   border-radius: 50px;
 }
 .city {
-  background: #e4f1fe;
   width: 210px;
   border: 1px solid;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border-style: none;
+  border: 2px solid rgb(205, 214, 223);
 }
 .search {
   width: 60px;
@@ -72,13 +74,13 @@ form {
   position: relative;
   display: block;
   margin: 0 auto;
-  bottom: -5px;
+  bottom: 50px;
   left: 165px;
 
   font-family: "Barlow Condensed", sans-serif;
   border-radius: 50px;
 }
-p {
+.signature {
   position: relative;
-  bottom: -115px;
+  text-align: center;
 }
