@@ -137,30 +137,5 @@ function getCurrentLocation(event) {
 
 searchCity("London");
 
-let celcuisTemperature = null;
-
-function showFarenheitTemperature(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  celcuisLink.classList.remove("active");
-  farenheitLink.classList.add("active");
-  let farenheitTemperature = (celcuisTemperature * 9) / 5 + 32;
-  temperatureElement.innerHTML = Math.round(farenheitTemperature);
-}
-
-function showCelciusTemperature(event) {
-  event.preventDefault();
-  celcuisLink.classList.add("active");
-  farenheitLink.classList.remove("active");
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = Math.round(celcuisTemperature);
-}
-
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
-
-let farenheitLink = document.querySelector("#farenheit-link");
-farenheitLink.addEventListener("click", showFarenheitTemperature);
-
-let celcuisLink = document.querySelector("#ceclius-link");
-celcuisLink.addEventListener("click", showCelciusTemperature);
