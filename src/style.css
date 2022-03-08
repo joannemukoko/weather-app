@@ -1,9 +1,11 @@
 body {
-  border: 20px solid #e4f1fe;
-  border-radius: 50px;
-  padding: 4% 1%;
-  margin: 100px 300px 100px 300px;
+  background: #94c5fc;
+}
+.container {
+  width: 700px;
+  margin-top: 100px;
   background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  border-radius: 10px;
 }
 h1 {
   text-align: center;
@@ -20,8 +22,12 @@ h2 {
   font-family: "Barlow Condensed", sans-serif;
   color: #295aad;
   text-align: left;
+  font-weight: bold;
   position: relative;
-  bottom: 200px;
+  bottom: 170px;
+}
+.location {
+  font-size: 50px;
 }
 .wind {
   font-family: "Barlow Condensed", sans-serif;
